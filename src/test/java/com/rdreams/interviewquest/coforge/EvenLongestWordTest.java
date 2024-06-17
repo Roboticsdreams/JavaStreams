@@ -9,7 +9,7 @@ public class EvenLongestWordTest {
 
     @Test
     void getEvenLongestWord_Testcase01() {
-        String str = "Good Morning! Hello world";
+        String str = "Good Morning!  Hello world";
         String actualOutput = obj.getEvenLongestWord(str);
         String expectedOutput = "Good";
         assertEquals(expectedOutput, actualOutput);
