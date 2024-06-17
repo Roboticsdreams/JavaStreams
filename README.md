@@ -20,13 +20,13 @@
 ## Table of Contents
 
 1. **Coding Challenges**
-    - [BannariAmman](src/main/java/com/rdreams/codingchallenges/geeksforgeeks/geeksforgeeks)
+    - [geeksforgeeks](src/main/java/com/rdreams/codingchallenges/geeksforgeeks/geeksforgeeks.md)
 2. **Interview Preparation**
-    - [AthenaGPT](src/main/java/com/rdreams/interviewprep/athenagpt/athenagpt.md)
-    - [Medium](src/main/java/com/rdreams/interviewprep/medium/medium.md)
+    - [athenagpt](src/main/java/com/rdreams/interviewprep/athenagpt/athenagpt.md)
+    - [medium](src/main/java/com/rdreams/interviewprep/medium/medium.md)
 3. **Interview Questions**
-    - [Athenahealth](src/main/java/com/rdreams/interviewquest/athenahealth/athenahealth.md)
-    - [Coforge](src/main/java/com/rdreams/interviewquest/coforge/coforge.md)
+    - [athenahealth](src/main/java/com/rdreams/interviewquest/athenahealth/athenahealth.md)
+    - [coforge](src/main/java/com/rdreams/interviewquest/coforge/coforge.md)
 
 ## Output
 [See the code coverage](https://htmlpreview.github.io/?https://github.com/Roboticsdreams/JavaStreams/blob/master/target/site/jacoco/index.html)
