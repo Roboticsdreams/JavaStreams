@@ -2,4 +2,8 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 JavaStreams,com.rdreams.interviewquest.coforge,EvenLongestWord,0,34,0,2,0,7,0,5,0,4
 JavaStreams,com.rdreams.codingchallenges.geeksforgeeks,SquareHollow,0,50,0,10,0,10,0,8,0,3
 JavaStreams,com.rdreams.codingchallenges.geeksforgeeks,SquareFill,0,31,0,2,0,8,0,4,0,3
+JavaStreams,com.rdreams.interviewquest.athenahealth.mts,Student,53,0,0,0,7,0,10,0,10,0
+JavaStreams,com.rdreams.interviewquest.athenahealth.mts,StudentMarklist,87,0,0,0,16,0,4,0,4,0
+JavaStreams,com.rdreams.interviewquest.athenahealth.amts,ArraySum,0,10,0,0,0,2,0,2,0,2
+JavaStreams,com.rdreams.interviewquest.athenahealth.amts,UniqueElements,0,11,0,0,0,2,0,2,0,2
 JavaStreams,com.rdreams.interviewprep.medium,DuplicateValues,0,43,0,4,0,9,0,4,0,2
