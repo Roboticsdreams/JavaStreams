@@ -1,6 +1,6 @@
-![GitHub top language](https://img.shields.io/github/languages/top/Roboticsdreams/Java?style=flat)
-![GitHub last commit](https://img.shields.io/github/last-commit/Roboticsdreams/Java?style=flat)
-![ViewCount](https://views.whatilearened.today/views/github/Roboticsdreams/Java.svg?cache=remove)
+![GitHub top language](https://img.shields.io/github/languages/top/Roboticsdreams/JavaStreams?style=flat)
+![GitHub last commit](https://img.shields.io/github/last-commit/Roboticsdreams/JavaStreams?style=flat)
+![ViewCount](https://views.whatilearened.today/views/github/Roboticsdreams/JavaStreams.svg?cache=remove)
 # JavaStreams
 
 ## Steps to download and execute this project
