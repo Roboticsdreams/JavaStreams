@@ -20,7 +20,7 @@
 ## Table of Contents
 
 1. **Coding Challenges**
-    - [BannariAmman](src/main/java/com/rdreams/codingchallenges/bannariamman/bannariamman.md)
+    - [BannariAmman](src/main/java/com/rdreams/codingchallenges/geeksforgeeks/geeksforgeeks)
 2. **Interview Preparation**
     - [AthenaGPT](src/main/java/com/rdreams/interviewprep/athenagpt/athenagpt.md)
     - [Medium](src/main/java/com/rdreams/interviewprep/medium/medium.md)

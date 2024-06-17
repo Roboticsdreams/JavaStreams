@@ -1,3 +1,4 @@
 com\rdreams\suites\AppTestSuite.class
-com\rdreams\interviewquest\coforge\EvenLongestWordTest.class
 com\rdreams\interviewprep\medium\DuplicateValuesTest.class
+com\rdreams\interviewquest\coforge\EvenLongestWordTest.class
+com\rdreams\codingchallenges\geeksforgeeks\SquareHollowTest.class
