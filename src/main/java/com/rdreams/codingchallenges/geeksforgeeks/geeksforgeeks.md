@@ -16,14 +16,14 @@ Here, you will find the top 25 Java pattern programs with their proper code and 
 12. Right Half Pyramid Pattern
 13. Reverse Right Half Pyramid Pattern
 14. Left Half Pyramid Pattern
-15. Reverse Left Half Pyramid Pattern
-16. Triangle Star Pattern
-17. Reverse number Triangle Pattern
-18. Mirror Image Triangle Pattern
-19. Hollow Triangle Pattern
-20. Hollow Reverse Triangle Pattern
-21. Hollow Diamond Pyramid
-22. Hollow Hourglass Pattern
-23. Pascal’s Triangle
-24. Right Pascal’s Triangle
-25. K Pattern
+15. Reverse Left Half Pyramid Pattern 
+16. K Pattern
+17. Triangle Star Pattern
+18. Reverse number Triangle Pattern
+19. Mirror Image Triangle Pattern 
+20. Hollow Triangle Pattern 
+21. Hollow Reverse Triangle Pattern 
+22. Hollow Diamond Pyramid 
+23. Hollow Hourglass Pattern 
+24. Pascal’s Triangle 
+25. Right Pascal’s Triangle
