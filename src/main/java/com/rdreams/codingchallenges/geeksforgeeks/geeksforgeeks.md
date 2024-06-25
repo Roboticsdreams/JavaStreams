@@ -27,3 +27,5 @@ Here, you will find the top 25 Java pattern programs with their proper code and 
 23. Hollow Hourglass Pattern 
 24. Pascal’s Triangle 
 25. Right Pascal’s Triangle
+
+Reference: https://www.geeksforgeeks.org/java-pattern-programs/
