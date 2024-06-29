@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MaxConsecutiveOnes.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JavaStreams</a> &gt; <a href="index.source.html" class="el_package">com.rdreams.interviewprep.leetcode.dsa.arrays101</a> &gt; <span class="el_source">MaxConsecutiveOnes.java</span></div><h1>MaxConsecutiveOnes.java</h1><pre class="source lang-java linenums">package com.rdreams.interviewprep.leetcode.dsa.arrays101;
+
+/*
+Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
+Example 1:
+----------
+Input: nums = [1,1,0,1,1,1]
+Output: 3
+Explanation: The first two digits or the last three digits are consecutive 1s.
+The maximum number of consecutive 1s is 3.
+
+Example 2:
+-----------
+Input: nums = [1,0,1,1,0,1]
+Output: 2
+
+Constraints:
+--------------
+    1 &lt;= nums.length &lt;= 105
+    nums[i] is either 0 or 1.
+
+*/
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
+<span class="fc" id="L27">public class MaxConsecutiveOnes {</span>
+
+    public int findMaxConsecutiveOnes(int[] nums) {
+<span class="fc bfc" id="L30" title="All 2 branches covered.">        int zerocnt = (int) Arrays.stream(nums).filter(i -&gt; i == 0).count();</span>
+<span class="fc bfc" id="L31" title="All 4 branches covered.">        if (nums.length == 0 || zerocnt == nums.length) {</span>
+<span class="fc" id="L32">            return 0;</span>
+        }
+
+<span class="fc" id="L35">        return IntStream.range(0, nums.length)</span>
+<span class="fc" id="L36">                .mapToObj(i -&gt; {</span>
+<span class="fc" id="L37">                        int count = 1;</span>
+<span class="fc bfc" id="L38" title="All 6 branches covered.">                        while (i + 1 &lt; nums.length &amp;&amp; nums[i] == nums[i + 1] &amp;&amp; nums[i] == 1) {</span>
+<span class="fc" id="L39">                            count++;</span>
+<span class="fc" id="L40">                            i++;</span>
+                        }
+<span class="fc" id="L42">                        return count;</span>
+                })
+<span class="fc" id="L44">                .max(Integer::compareTo) // Use Integer::compareTo for efficient comparison</span>
+<span class="fc" id="L45">                .orElse(0);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

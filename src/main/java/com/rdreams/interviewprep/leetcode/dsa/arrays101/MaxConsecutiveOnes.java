@@ -19,33 +19,29 @@ Constraints:
 --------------
     1 <= nums.length <= 105
     nums[i] is either 0 or 1.
-*/
 
+*/
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class MaxConsecutiveOnes {
 
-    static class CountClass {
-        int count;
-        int maxCount;
-    }
+    public int findMaxConsecutiveOnes(int[] nums) {
+        int zerocnt = (int) Arrays.stream(nums).filter(i -> i == 0).count();
+        if (nums.length == 0 || zerocnt == nums.length) {
+            return 0;
+        }
 
-    public int findMaxConsecutiveOnes(int[] arr) {
-        CountClass obj = Arrays.stream(arr)
-            .boxed()
-            .reduce(new CountClass(), (countobj, num) -> {
-                if (num == 1) {
-                    countobj.count++;
-                    countobj.maxCount = Math.max(countobj.count, countobj.maxCount);
-                } else {
-                    countobj.count = 0;
-                }
-                return countobj;
-            }, (countobj1, countobj2) -> {
-                countobj1.maxCount = Math.max(countobj2.maxCount, countobj1.maxCount);
-                return countobj1;
-            });
-
-        return obj.maxCount;
+        return IntStream.range(0, nums.length)
+                .mapToObj(i -> {
+                        int count = 1;
+                        while (i + 1 < nums.length && nums[i] == nums[i + 1] && nums[i] == 1) {
+                            count++;
+                            i++;
+                        }
+                        return count;
+                })
+                .max(Integer::compareTo) // Use Integer::compareTo for efficient comparison
+                .orElse(0);
     }
 }
